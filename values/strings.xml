@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Message_Application</string>
+    <string name="contact_button_name">Contacts</string>
+    <string name="welcome_text">welcome to superMessage app</string>
+    <string name="send_message">send message</string>
+
+</resources>

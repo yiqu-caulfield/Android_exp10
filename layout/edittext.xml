@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/message_title"
+    android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_action_camera"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/edittext_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/send_message"
+            android:maxLines="5"
+            tools:ignore="Autofill,TextFields" />
+
+        <ImageButton
+            android:id="@+id/button_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_action_emo_basic"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_action_send"
+            android:background="@android:color/transparent"
+            android:layout_margin="5dp"
+            tools:ignore="ContentDescription" />
+        <!--ContentDescription 为视力障碍用户设置的可播报控件描述-->
+
+</LinearLayout>
+

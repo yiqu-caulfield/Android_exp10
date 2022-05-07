@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--/storage/emulated/0/Android/data/...-->
+    <external-files-path
+        name="msg_images"
+        path="Android/data/com.example.message_application/files/Pictures" />
+    <!--配置root-path，这样子可以读取到sd卡和一些应用分身的目录，否则微信分身保存的图片，
+    就会导致 java.lang.IllegalArgumentException: Failed to find configured root that contains
+    在小米6的手机上微信分身有这个crash，华为没有-->
+    <root-path
+        name="root-path"
+        path="" />
+
+</paths>
+    
